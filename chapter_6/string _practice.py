@@ -1,3 +1,7 @@
+import pyperclip
+
+
+
 # Using backslash to create line breaks
 print("Hello there!\nHow are you?\nI\'m doing fine.")
 
@@ -63,3 +67,77 @@ print('aed32'.isalnum()) #True
 print('hi'.isalnum()) #True
 print('This Is A Title'.istitle()) #True
 print('This isn"t a title'.istitle()) #False
+
+
+
+# startswith() and endswith() to check part of string
+
+print('Hello, World'.startswith('Hello,')) #True
+print('bob'.startswith('b')) #True
+print('bob'.endswith('b')) #True
+
+
+# join() is called on the string that will join the list of strings by
+
+print('/'.join(['horses', 'cats', 'sheeps', 'dogs']))
+
+# split() is called on the string to be split into a list of strings
+
+print('My name is dog'.split())
+
+
+
+
+email = """
+         Dear Sender,
+         
+         I am away at the moment but I soon will come back and can respond to your query.
+         Thank you for your time.
+         
+         Kind Regards,
+         Developer"""
+        
+        
+lines = email.split('\n')
+#print(lines)
+
+
+
+
+# partition() splitting the given string into 3 substings. A 'before' the given string and 'after'
+
+partitioned = 'my separator string'.partition('sepa')
+print(partitioned)
+
+
+
+# Justifying text
+
+print('Tittle'.rjust(10,'*'))
+print('Tittle'.ljust(10,'*'))
+print('Tittle'.center(20,'*'))
+
+
+# Stripping strings
+
+trimmable = '    Hello my name is  Jeff    '
+trimmable = trimmable.strip()
+print(trimmable)
+
+
+
+#Access unicode value of character with ord()
+
+print(ord('%'))
+
+
+#Access character by passing unicode value to chr()
+
+print(chr(77))
+
+
+# Accessing clip board info
+print(pyperclip.paste())
+
+
+
