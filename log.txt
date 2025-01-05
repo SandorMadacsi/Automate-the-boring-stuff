@@ -1,0 +1,42 @@
+commit 4ab11027d2ee56d20b8fb143f4352936189229e6
+Author: Sandor Madacsi <smadacsi@protonmail.com>
+Date:   Sun Jan 5 17:11:14 2025 +0000
+
+    pulled from linux
+
+commit 1f49ad06232228e93f3bc4d5353d430adfd1562a
+Author: Sandor <smadacsi@protonmail.com>
+Date:   Sun Jan 5 17:01:33 2025 +0000
+
+    finished chapter 7 projects except last
+
+commit 609a0344a5a4b673d57044deb571809d27590e64
+Merge: 489c567 0f7ba95
+Author: Sandor Madacsi <sandormadacsi@Sandors-MacBook-Pro.local>
+Date:   Sun Dec 1 15:24:33 2024 +0000
+
+    Merge branch 'main' of github.com:SandorMadacsi/Automate-the-boring-stuff
+
+commit 489c56787f7b3671605927796a72eb8a843a347c
+Author: Sandor Madacsi <sandormadacsi@Sandors-MacBook-Pro.local>
+Date:   Sun Dec 1 15:23:38 2024 +0000
+
+    completed chapter 5-6
+
+commit 0f7ba95b253c3a7080f36e19c81862978c384247
+Author: Sandor Madacsi <smadacsi@protonmail.com>
+Date:   Mon Sep 30 22:37:26 2024 +0100
+
+    went trough chapter 6 up until first project
+
+commit 0708c3c3484fb20b83b7cfe8b9105899b00ead37
+Author: Sandor Madacsi <smadacsi@protonmail.com>
+Date:   Sun Sep 29 22:41:09 2024 +0100
+
+    started chapter 6
+
+commit 3195a5cf78562973bbf934dc36a9ee8043843503
+Author: Sandor Madacsi <sandormadacsi@Sandors-MacBook-Pro.local>
+Date:   Sun Sep 29 21:00:21 2024 +0100
+
+    Initial commit
